@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+h1{
+  color: blue;
+  background-color: lightblue
+}
+p{
+  color: purple;
+  background-color: pink;
+}
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  display:flex
+}
+h3{
+  color: royalblue;
+  background-color: skyblue;
+}
+li{
+  color: darkblue;
+}
+ul{
+  background-color: beige;
+  color: darkblue;
+  font-size: 10px;
+}
